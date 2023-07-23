@@ -1,0 +1,2777 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PointOfSale.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PointOfSale.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\css\\sleek.css",
+      "PackagePath": "staticwebassets\\css\\sleek.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\css\\sleek.css.map",
+      "PackagePath": "staticwebassets\\css\\sleek.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\css\\sleek.rtl.css",
+      "PackagePath": "staticwebassets\\css\\sleek.rtl.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_454545_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_454545_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\img\\ui-icons\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\img\\ui-icons\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\date-range.js",
+      "PackagePath": "staticwebassets\\js\\date-range.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\sleek.js",
+      "PackagePath": "staticwebassets\\js\\sleek.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\AdminDashBoard.js",
+      "PackagePath": "staticwebassets\\js\\views\\AdminDashBoard.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\InventoryCategories.js",
+      "PackagePath": "staticwebassets\\js\\views\\InventoryCategories.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\InventoryProducts.js",
+      "PackagePath": "staticwebassets\\js\\views\\InventoryProducts.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\ReportsSalesReport.js",
+      "PackagePath": "staticwebassets\\js\\views\\ReportsSalesReport.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\SalesHistorySale.js",
+      "PackagePath": "staticwebassets\\js\\views\\SalesHistorySale.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\SalesNewSale.js",
+      "PackagePath": "staticwebassets\\js\\views\\SalesNewSale.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\adminUsers.js",
+      "PackagePath": "staticwebassets\\js\\views\\adminUsers.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\js\\views\\barcode.js",
+      "PackagePath": "staticwebassets\\js\\views\\barcode.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\charts\\Chart.min.js",
+      "PackagePath": "staticwebassets\\plugins\\charts\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\circle-progress\\circle-progress.js",
+      "PackagePath": "staticwebassets\\plugins\\circle-progress\\circle-progress.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\buttons.html5.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\buttons.print.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\datatables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\datatables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\datatables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\datatables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\datatables.responsive.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\datatables.responsive.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\jquery.datatables.min.css",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\jquery.datatables.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\jquery.datatables.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\jquery.datatables.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\jszip.min.js",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\jszip.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\responsive.datatables.min.css",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\responsive.datatables.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\data-tables\\twitter-bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\data-tables\\twitter-bootstrap.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\plugins\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\plugins\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\plugins\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\css\\flag-icon.css",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\css\\flag-icon.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\css\\flag-icon.min.css",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\css\\flag-icon.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\es-ct.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\es-ct.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\es-ct.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\es-ct.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\flag-icons\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\plugins\\flag-icons\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\core-4.3.1\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\core-4.3.1\\main.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\core-4.3.1\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\core-4.3.1\\main.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\core-4.3.1\\main.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\core-4.3.1\\main.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\core-4.3.1\\main.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\core-4.3.1\\main.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\daygrid-4.3.0\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\daygrid-4.3.0\\main.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\daygrid-4.3.0\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\daygrid-4.3.0\\main.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\daygrid-4.3.0\\main.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\daygrid-4.3.0\\main.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\daygrid-4.3.0\\main.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\daygrid-4.3.0\\main.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\interaction\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\interaction\\main.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\list\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\list\\main.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\month-picker\\monthpicker.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\month-picker\\monthpicker.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\month-picker\\monthpicker.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\month-picker\\monthpicker.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\popper\\popper.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\popper\\popper.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\timegrid\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\timegrid\\main.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\timegrid\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\timegrid\\main.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\fullcalendar\\tooltip\\tooltip.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\tooltip\\tooltip.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jekyll-search.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jekyll-search.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-mask-input\\jquery.mask.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-mask-input\\jquery.mask.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-mask-input\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-mask-input\\jquery.mask.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\idioma\\datepicker-es.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\idioma\\datepicker-es.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery\\jquery-migrate-1.4.1.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery-migrate-1.4.1.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery\\jquery-ui-1.12.1.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery-ui-1.12.1.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery\\jquery-ui-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery-ui-1.12.1.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.css",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\jvectormap\\jquery-jvectormap-world-mill.js",
+      "PackagePath": "staticwebassets\\plugins\\jvectormap\\jquery-jvectormap-world-mill.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\ladda\\ladda-themeless.min.css",
+      "PackagePath": "staticwebassets\\plugins\\ladda\\ladda-themeless.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\ladda\\ladda.jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\ladda\\ladda.jquery.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\ladda\\ladda.min.css",
+      "PackagePath": "staticwebassets\\plugins\\ladda\\ladda.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\ladda\\ladda.min.js",
+      "PackagePath": "staticwebassets\\plugins\\ladda\\ladda.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\ladda\\spin.min.js",
+      "PackagePath": "staticwebassets\\plugins\\ladda\\spin.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\loadingoverlay\\loadingoverlay.min.js",
+      "PackagePath": "staticwebassets\\plugins\\loadingoverlay\\loadingoverlay.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\nprogress\\nprogress.css",
+      "PackagePath": "staticwebassets\\plugins\\nprogress\\nprogress.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\nprogress\\nprogress.js",
+      "PackagePath": "staticwebassets\\plugins\\nprogress\\nprogress.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\plugins\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\select2.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\sweetalert\\sweetalert.css",
+      "PackagePath": "staticwebassets\\plugins\\sweetalert\\sweetalert.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\sweetalert\\sweetalert.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalert\\sweetalert.js"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PointOfSale.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PointOfSale.props",
+      "PackagePath": "build\\PointOfSale.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PointOfSale.props",
+      "PackagePath": "buildMultiTargeting\\PointOfSale.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PointOfSale.props",
+      "PackagePath": "buildTransitive\\PointOfSale.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

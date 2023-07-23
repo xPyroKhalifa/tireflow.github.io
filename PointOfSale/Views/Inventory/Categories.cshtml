@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section StylesPOS{
+
+	<link href="~/plugins/data-tables/datatables.bootstrap4.min.css" rel="stylesheet">
+	<link href="~/plugins/data-tables/buttons.bootstrap4.min.css" rel="stylesheet">
+	<link href="~/plugins/data-tables/responsive.datatables.min.css" rel="stylesheet">
+
+	
+}
+
+<div class="row">
+    <div class="col-sm-12">
+
+        <div class="card card-default">
+			<div class="card-header card-header-border-bottom">
+				<div class="row justify-content-between w-100">
+				<div class="col-sm-4">
+					<h4>Categories</h4>
+				</div>
+				<div class="col-sm-4 text-right">
+				  <button class="btn btn-success" id="btnNewUser">New Category</button>
+				</div>
+			  </div>
+			</div>
+
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-12">
+						<table id="tbData" class="table" style="width:100%">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Description</th>
+									<th>State</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<!-- Grid Modal -->
+<div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-labelledby="exampleModalGrid" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalGridTitle">Category Detail</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<input type="hidden" value="0" id="txtId">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="form-row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="txtDescription">Description</label>
+                                        <input type="text" class="form-control form-control-sm input-validate" id="txtDescription" name="Description">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="cboState">State</label>
+                                        <select class="form-control form-control-sm" id="cboState">
+                                            <option value="1">Active</option>
+											<option value="0">Inactive</option>
+                                        </select>
+                                    </div>
+                            </div>
+						</div>
+					</div>
+							
+				</form>
+
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary" id="btnSave">Save Changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@section Scripts{
+	<script src="~/plugins/data-tables/jquery.datatables.min.js"></script>
+	<script src="~/plugins/data-tables/datatables.bootstrap4.min.js"></script>
+	<script src="~/plugins/data-tables/datatables.responsive.min.js"></script>
+
+
+	<script src="~/plugins/data-tables/dataTables.buttons.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.bootstrap4.min.js"></script>
+	<script src="~/plugins/data-tables/jszip.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.html5.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.print.min.js"></script>
+
+	<script src="~/js/views/InventoryCategories.js" ></script>
+}
+
