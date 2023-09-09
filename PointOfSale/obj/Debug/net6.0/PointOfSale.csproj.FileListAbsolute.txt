@@ -551,3 +551,8 @@ D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\obj\Debug\net6.0
 D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\obj\Debug\net6.0\PointOfSale.pdb
 D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\obj\Debug\net6.0\PointOfSale.genruntimeconfig.cache
 D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\obj\Debug\net6.0\ref\PointOfSale.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

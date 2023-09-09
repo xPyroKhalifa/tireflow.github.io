@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// REFERENCIAS
+
 using PointOfSale.Data.DBContext;
 using PointOfSale.Data.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -95,5 +95,8 @@ namespace PointOfSale.Data.Repository
 
             return listSummary;
         }
+
+
+
     }
 }

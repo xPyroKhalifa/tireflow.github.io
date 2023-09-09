@@ -2733,6 +2733,10 @@
       "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.min.js"
     },
     {
+      "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\signalr.min.js",
+      "PackagePath": "staticwebassets\\plugins\\signalr.min.js"
+    },
+    {
       "Id": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\sweetalert\\sweetalert.css",
       "PackagePath": "staticwebassets\\plugins\\sweetalert\\sweetalert.css"
     },

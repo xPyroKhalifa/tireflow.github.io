@@ -71,11 +71,13 @@ namespace PointOfSale.Data.Repository
                 throw;
             }
         }
-
+        
         public async Task<IQueryable<TEntity>> Query(Expression<Func<TEntity, bool>> filter)
         {
             IQueryable<TEntity> queryentity = filter == null ? _dbcontext.Set<TEntity>() : _dbcontext.Set<TEntity>().Where(filter);
             return queryentity;
         }
-    }
+        
+
+	}
 }

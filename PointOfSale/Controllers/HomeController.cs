@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using PointOfSale.Models;
 using System.Diagnostics;
 
@@ -11,10 +13,11 @@ namespace PointOfSale.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+       
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            
         }
 
         public IActionResult Index()
@@ -26,6 +29,8 @@ namespace PointOfSale.Controllers
         {
             return View();
         }
+        
+
 
         public async Task<IActionResult> LogOut()
         {

@@ -16,7 +16,7 @@ const BASIC_MODEL = {
 
 $(document).ready(function () {
 
-   
+
 
     fetch("/Inventory/GetCategories")
         .then(response => {
@@ -32,8 +32,6 @@ $(document).ready(function () {
 
             }
         })
-
-  
 
 
     tableData = $("#tbData").DataTable({
@@ -91,179 +89,180 @@ $(document).ready(function () {
         ]
     });
 
-  
+  })
 
 
-})
+    const openModal = (model = BASIC_MODEL) => {
+        $("#txtId").val(model.idProduct);
+        $("#txtBarCode").val(model.barCode);
+        $("#txtBrand").val(model.brand);
+        $("#txtDescription").val(model.description);
+        $("#cboCategory").val(model.idCategory == 0 ? $("#cboCategory option:first").val() : model.idCategory);
+        $("#txtQuantity").val(model.quantity);
+        $("#txtPrice").val(model.price);
+        $("#cboState").val(model.isActive);
+        $("#txtPhoto").val("");
+        $("#imgProduct").attr("src", `data:image/png;base64,${model.photoBase64}`);
+
+        $("#modalData").modal("show")
 
 
-
-const openModal = (model = BASIC_MODEL) => {
-    $("#txtId").val(model.idProduct);
-    $("#txtBarCode").val(model.barCode);
-    $("#txtBrand").val(model.brand);
-    $("#txtDescription").val(model.description);
-    $("#cboCategory").val(model.idCategory == 0 ? $("#cboCategory option:first").val() : model.idCategory);
-    $("#txtQuantity").val(model.quantity);
-    $("#txtPrice").val(model.price);
-    $("#cboState").val(model.isActive);
-    $("#txtPhoto").val("");
-    $("#imgProduct").attr("src", `data:image/png;base64,${model.photoBase64}`);
-
-    $("#modalData").modal("show")
-    
-
-}
-
-$("#btnNewProduct").on("click", function () {
-    openModal()
-})
-
-$("#btnSave").on("click", function () {
-    const inputs = $("input.input-validate").serializeArray();
-    const inputs_without_value = inputs.filter((item) => item.value.trim() == "")
-
-    if (inputs_without_value.length > 0) {
-        const msg = `You must complete the field : "${inputs_without_value[0].name}"`;
-        toastr.warning(msg, "");
-        $(`input[name="${inputs_without_value[0].name}"]`).focus();
-        return;
     }
 
-    const model = structuredClone(BASIC_MODEL);
-    model["idProduct"] = parseInt($("#txtId").val());
-    model["barCode"] = $("#txtBarCode").val();
-    model["brand"] = $("#txtBrand").val();
-    model["description"] = $("#txtDescription").val();
-    model["idCategory"] = $("#cboCategory").val();
-    model["quantity"] = $("#txtQuantity").val();
-    model["price"] = $("#txtPrice").val();
-    model["isActive"] = $("#cboState").val();
-    const inputPhoto = document.getElementById('txtPhoto');
+    $("#btnNewProduct").on("click", function () {
+        openModal()
+    })
 
-    
+    $("#btnSave").on("click", function () {
+        const inputs = $("input.input-validate").serializeArray();
+        const inputs_without_value = inputs.filter((item) => item.value.trim() == "")
 
-    const formData = new FormData();
-    formData.append('photo', inputPhoto.files[0]);
-    formData.append('model', JSON.stringify(model));
+        if (inputs_without_value.length > 0) {
+            const msg = `You must complete the field : "${inputs_without_value[0].name}"`;
+            toastr.warning(msg, "");
+            $(`input[name="${inputs_without_value[0].name}"]`).focus();
+            return;
+        }
 
-    $("#modalData").find("div.modal-content").LoadingOverlay("show")
-
-
-    if (model.idProduct == 0) {
-        fetch("/Inventory/CreateProduct", {
-            method: "POST",
-            body: formData
-        }).then(response => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide")
-            return response.ok ? response.json() : Promise.reject(response);
-        }).then(responseJson => {
-
-            if (responseJson.state) {
-
-                tableData.row.add(responseJson.object).draw(false);
-                $("#modalData").modal("hide");
-                swal("Successful!", "The product was created", "success");
-
-            } else {
-                swal("We're sorry", responseJson.message, "error");
-            }
-        }).catch((error) => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide")
-        })
-    } else {
-
-        fetch("/Inventory/EditProduct", {
-            method: "PUT",
-            body: formData
-        }).then(response => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide")
-            return response.ok ? response.json() : Promise.reject(response);
-        }).then(responseJson => {
-            if (responseJson.state) {
-
-                tableData.row(rowSelected).data(responseJson.object).draw(false);
-                rowSelected = null;
-                $("#modalData").modal("hide");
-                swal("Successful!", "The product was modified", "success");
-
-            } else {
-                swal("We're sorry", responseJson.message, "error");
-            }
-        }).catch((error) => {
-            $("#modalData").find("div.modal-content").LoadingOverlay("hide")
-        })
-    }
-    
-
-})
+        const model = structuredClone(BASIC_MODEL);
+        model["idProduct"] = parseInt($("#txtId").val());
+        model["barCode"] = $("#txtBarCode").val();
+        model["brand"] = $("#txtBrand").val();
+        model["description"] = $("#txtDescription").val();
+        model["idCategory"] = $("#cboCategory").val();
+        model["quantity"] = $("#txtQuantity").val();
+        model["price"] = $("#txtPrice").val();
+        model["isActive"] = $("#cboState").val();
+        const inputPhoto = document.getElementById('txtPhoto');
 
 
 
-$("#tbData tbody").on("click", ".btn-edit", function () {
+        const formData = new FormData();
+        formData.append('photo', inputPhoto.files[0]);
+        formData.append('model', JSON.stringify(model));
 
-    if ($(this).closest('tr').hasClass('child')) {
-        rowSelected = $(this).closest('tr').prev();
-    } else {
-        rowSelected = $(this).closest('tr');
-    }
-
-    const data = tableData.row(rowSelected).data();
-
-    openModal(data);
-})
+        $("#modalData").find("div.modal-content").LoadingOverlay("show")
 
 
+        if (model.idProduct == 0) {
+            fetch("/Inventory/CreateProduct", {
+                method: "POST",
+                body: formData
+            }).then(response => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide")
+                return response.ok ? response.json() : Promise.reject(response);
+            }).then(responseJson => {
 
-$("#tbData tbody").on("click", ".btn-delete", function () {
+                if (responseJson.state) {
 
-    let row;
+                    tableData.row.add(responseJson.object).draw(false);
+                    $("#modalData").modal("hide");
+                    swal("Successful!", "The product was created", "success");
 
-    if ($(this).closest('tr').hasClass('child')) {
-        row = $(this).closest('tr').prev();
-    } else {
-        row = $(this).closest('tr');
-    }
-    const data = tableData.row(row).data();
+                } else {
+                    swal("We're sorry", responseJson.message, "error");
+                }
 
-    swal({
-        title: "Are you sure?",
-        text: `Delete the product"${data.description}"`,
-        type: "warning",
-        showCancelButton: true,
-        confirmButtonClass: "btn-danger",
-        confirmButtonText: "Yes, delete",
-        cancelButtonText: "No, cancel",
-        closeOnConfirm: false,
-        closeOnCancel: true
-    },
-        function (respuesta) {
+            }).catch((error) => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide")
+            })
+        } else {
 
-            if (respuesta) {
+            fetch("/Inventory/EditProduct", {
+                method: "PUT",
+                body: formData
+            }).then(response => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide")
+                return response.ok ? response.json() : Promise.reject(response);
+            }).then(responseJson => {
+                if (responseJson.state) {
 
-                $(".showSweetAlert").LoadingOverlay("show")
+                    tableData.row(rowSelected).data(responseJson.object).draw(false);
+                    rowSelected = null;
+                    $("#modalData").modal("hide");
+                    swal("Successful!", "The product was modified", "success");
 
-                fetch(`/Inventory/DeleteProduct?IdProduct=${data.idProduct}`, {
-                    method: "DELETE"
-                }).then(response => {
-                    $(".showSweetAlert").LoadingOverlay("hide")
-                    return response.ok ? response.json() : Promise.reject(response);
-                }).then(responseJson => {
-                    if (responseJson.state) {
+                } else {
+                    swal("We're sorry", responseJson.message, "error");
+                }
+            }).catch((error) => {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide")
+            })
+        }
 
-                        tableData.row(row).remove().draw();
-                        swal("Successful!", "Product was deleted", "success");
 
-                    } else {
-                        swal("We're sorry", responseJson.message, "error");
-                    }
-                })
-                    .catch((error) => {
+    })
+
+
+
+    $("#tbData tbody").on("click", ".btn-edit", function () {
+
+        if ($(this).closest('tr').hasClass('child')) {
+            rowSelected = $(this).closest('tr').prev();
+        } else {
+            rowSelected = $(this).closest('tr');
+        }
+
+        const data = tableData.row(rowSelected).data();
+
+        openModal(data);
+    })
+
+
+
+    $("#tbData tbody").on("click", ".btn-delete", function () {
+
+        let row;
+
+        if ($(this).closest('tr').hasClass('child')) {
+            row = $(this).closest('tr').prev();
+        } else {
+            row = $(this).closest('tr');
+        }
+        const data = tableData.row(row).data();
+
+        swal({
+            title: "Are you sure?",
+            text: `Delete the product"${data.description}"`,
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonClass: "btn-danger",
+            confirmButtonText: "Yes, delete",
+            cancelButtonText: "No, cancel",
+            closeOnConfirm: false,
+            closeOnCancel: true
+        },
+            function (respuesta) {
+
+                if (respuesta) {
+
+                    $(".showSweetAlert").LoadingOverlay("show")
+
+                    fetch(`/Inventory/DeleteProduct?IdProduct=${data.idProduct}`, {
+                        method: "DELETE"
+                    }).then(response => {
                         $(".showSweetAlert").LoadingOverlay("hide")
-                    })
-            }
-        });
-})
+                        return response.ok ? response.json() : Promise.reject(response);
+                    }).then(responseJson => {
+                        if (responseJson.state) {
 
+                            tableData.row(row).remove().draw();
+                            swal("Successful!", "Product was deleted", "success");
+
+                        } else {
+                            swal("We're sorry", responseJson.message, "error");
+                        }
+                    })
+                        .catch((error) => {
+                            $(".showSweetAlert").LoadingOverlay("hide")
+                        })
+                }
+            });
+
+
+
+    
+    })
+    
 
 

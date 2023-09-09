@@ -13,5 +13,7 @@ namespace PointOfSale.Business.Contracts
         Task<Product> Add(Product entity);
         Task<Product> Edit(Product entity);
         Task<bool> Delete(int idProduct);
-    }
+        
+
+	}
 }

@@ -108,7 +108,38 @@ namespace PointOfSale.Controllers
         public async Task<IActionResult> GetProducts()
         {
             List<VMProduct> vmProductList = _mapper.Map<List<VMProduct>>(await _productService.List());
+
+            /*
+            // Get products with low stock
+            List<string> lowStockProducts = GetProductsBelowThreshold(vmProductList);
+
+            // Create notification message for low stock products
+            if (lowStockProducts.Count > 0)
+            {
+                string notification = "Warning: The following products have a quantity below 5: " + string.Join(", ", lowStockProducts);
+                TempData["LowQuantityNotification"] = notification;
+            }
+            */
             return StatusCode(StatusCodes.Status200OK, new { data = vmProductList });
+
+
+        }
+
+
+        private List<string> GetProductsBelowThreshold(List<VMProduct> products)
+        {
+            const int notificationThreshold = 5;
+            List<string> lowStockProducts = new List<string>();
+
+            foreach (var product in products)
+            {
+                if (product.Quantity < notificationThreshold)
+                {
+                    lowStockProducts.Add(product.Description);
+                }
+            }
+
+            return lowStockProducts;
         }
 
         [HttpPost]

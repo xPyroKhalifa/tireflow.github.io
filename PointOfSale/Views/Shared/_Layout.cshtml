@@ -28,9 +28,48 @@
             margin-bottom: 10px !important;
         }
 
-       
-        
-       
+
+        /* Replace this with your desired styling for the bell icon */
+        .bell-icon {
+            font-size: 24px;
+            cursor: pointer;
+            position: relative;
+        }
+        /* Replace this with your desired styling for the dropdown message */
+        .dropdown-message {
+            display: none;
+            position: absolute;
+            bottom: -200px; /* Adjust the value as per your requirement */
+            left: -460px; /* Adjust the value as per your requirement */
+            width: 500px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        /* Style for the close button */
+        .close-button {
+            cursor: pointer;
+            float: right;
+            font-size: 14px;
+            color: #888;
+           
+        }
+        /* Remove margin and padding from paragraphs inside the dropdown */
+        .dropdown-message p {
+            margin: 0;
+            padding: 0;
+        }
+        /* Replace this with your desired styling for the notification counter */
+        .notification-counter {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 50%;
+            font-size: 9px;
+        }
     
     </style>
     @await RenderSectionAsync("StylesPOS", required: false)
@@ -179,6 +218,76 @@
                 
               </div>
 
+                   
+                    <!-- Bell icon -->
+                    <div class="navbar-right ">
+
+
+                        <!-- Bell icon -->
+                        <div class="bell-icon" onclick="toggleMessage()" id="bellIcon">
+                            &#128276; <!-- Unicode character for the bell icon -->
+                          
+                            <!-- Dropdown message -->
+                            <div class="dropdown-message" id="messageBox">
+                                <!-- The close button is created dynamically when there's a message -->
+                                <span class="close-button" onclick="hideDropdown()">✖</span>
+                                
+
+                                <p>
+
+                                    @using Microsoft.Extensions.Caching.Memory
+                                    @inject IMemoryCache MemoryCache
+
+                                    @{
+                                        var lowQuantityNotification = MemoryCache.Get("LowQuantityNotification") as string;
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(lowQuantityNotification))
+                                    {
+                                        <div class="alert alert-warning">
+                                            @Html.Raw(lowQuantityNotification) <!-- Use Html.Raw to render HTML markup in the notification -->
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                    // Display the general warning message even when there are no low quantity products
+                                        <div class="alert alert-warning">
+                                            Warning: The following products have a quantity below the specified thresholds:
+                                        </div>
+                                    }
+
+                                   
+
+
+                                </p>
+
+                                
+                                
+                               
+
+                            </div>
+                        </div>
+                        
+
+                                  
+                         
+                        
+
+                                    
+                                    
+                            
+                        
+                      
+                    </div>
+                   
+
+
+                       
+                   
+                    
+
+                    
+
 
               <div class="navbar-right ">
                 <ul class="nav navbar-nav">
@@ -189,7 +298,13 @@
                       <img src="assets/img/user/user.png" class="user-image" alt="User Image" />
                       <span class="d-none d-lg-inline-block">Abdus Salam</span>
                     </button>
-                  </li>*@
+                  </li>
+
+                           
+                  
+                  
+                  
+                  *@
                   @await Component.InvokeAsync("MenuUser")
                 </ul>
               </div>
@@ -203,6 +318,9 @@
           <div class="content-wrapper">
             <div class="content">
                 @RenderBody()
+
+                    
+                   
             </div> <!-- End Content -->
         </div> <!-- End Content Wrapper -->
     
@@ -219,9 +337,58 @@
         var year = d.getFullYear();
         document.getElementById("copy-year").innerHTML = year;
 
-                
 
-      </script>
+                    var dropdownOpened = false;
+
+                    // Function to check if there's a message and update the notification counter
+                    function checkMessage() {
+                        // Replace this with the logic to check if there are any messages available
+                        var messagesAvailable = true; // Set this to true if there are messages, false otherwise
+                        var notificationCounter = document.getElementById("notificationCounter");
+                        var messageBox = document.getElementById("messageBox");
+
+                        if (messagesAvailable) {
+                            // If there are messages, show the notification counter
+                            notificationCounter.style.display = "block";
+
+                            // Update the notification counter to "1"
+                            notificationCounter.textContent = "1";
+
+                            
+                        } else {
+                            // If there are no messages, hide the notification counter
+                            notificationCounter.style.display = "none";
+
+                            
+                        }
+                    }
+
+                    // Function to hide the message dropdown
+                    function hideDropdown() {
+                        var messageBox = document.getElementById("messageBox");
+                        messageBox.style.display = "none";
+                        dropdownOpened = false; // Reset the dropdownOpened flag
+                    }
+
+                    // Function to toggle the message dropdown
+                    function toggleMessage() {
+                        var messageBox = document.getElementById("messageBox");
+
+                        // Toggle the display of the dropdown
+                        if (messageBox.style.display === "none") {
+                            messageBox.style.display = "block";
+                            dropdownOpened = true;
+                        } else {
+                            messageBox.style.display = "none";
+                            dropdownOpened = false;
+                        }
+                    }
+
+                    // Call checkMessage() to check for updates whenever needed
+                    // For example, you can call it in response to user interactions or events
+                    checkMessage();
+                    
+                </script>
     </footer>
 
     </div> <!-- End Page Wrapper -->
@@ -229,12 +396,14 @@
 
 
     <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.8/signalr.min.js"></script>
     <script src="~/plugins/jquery/jquery.min.js"></script>
     <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/sleek.js"></script>
     <script src="~/plugins/sweetalert/sweetalert.js"></script>
 
-    
+    <script src="~/plugins/signalr.min.js"></script>
+
 	<script src="~/plugins/toastr/toastr.min.js"></script>
 
 	<script src="~/plugins/loadingoverlay/loadingoverlay.min.js"></script>

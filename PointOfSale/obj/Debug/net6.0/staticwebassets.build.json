@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s7Y3yfC2iXA4yFyHwehwGdRhoFgEEvW1QYv0mnhp30E=",
+  "Hash": "aqzQ/2ZESoOrS3ve/2TUBV2TPaTuRZ1TrGo+Wc4jAbc=",
   "Source": "PointOfSale",
   "BasePath": "_content/PointOfSale",
   "Mode": "Default",
@@ -11643,6 +11643,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Identity": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\signalr.min.js",
+      "SourceId": "PointOfSale",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\",
+      "BasePath": "_content/PointOfSale",
+      "RelativePath": "plugins/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\plugins\\signalr.min.js"
     },
     {
       "Identity": "D:\\SchoolWorks\\CAPSTONE PROJECT\\WEBSITE\\PointOfSale\\PointOfSale\\wwwroot\\plugins\\sweetalert\\sweetalert.css",

@@ -112,27 +112,7 @@ namespace PointOfSale.Business.Services
                 throw;
             }
         }
-        //CHECK INVENTORY DI PA SURE NAGANA
-        public async Task CheckLowInventory(Product entity)
-        {
-            // Get the list of products
-            IQueryable<Product> productLowQuantity = await _repository.Query(u => u.Quantity == entity.Quantity);
 
-            // Check the inventory quantity for each product
-            foreach (Product product in productLowQuantity)
-            {
-                if (product.Quantity <= 10) // Replace 10 with your defined threshold
-                {
-                    // Send a notification
-                    string message = $"Low inventory for product: {product.Description}. Quantity: {product.Quantity}";
-                    SendNotification(message);
-                }
-            }
-        }
 
-        private void SendNotification(string message)
-        {
-            throw new NotImplementedException("LOW INVENTORY");
-        }
     }
 }

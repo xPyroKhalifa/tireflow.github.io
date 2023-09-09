@@ -96,6 +96,7 @@ namespace PointOfSale.Business.Services
             return lista;
         }
 
-        
-    }
+		
+
+	}
 }

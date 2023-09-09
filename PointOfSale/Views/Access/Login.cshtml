@@ -61,6 +61,10 @@
                     </div>
 
                     <button type="submit" class="btn btn-lg btn-primary btn-block mb-4">Sign In</button>
+                                    @if (!string.IsNullOrEmpty(ViewData["Message"] as string))
+                                    {
+                                        <div class="error-message">@ViewData["Message"]</div>
+                                    }
 
                   </div>
                 </div>

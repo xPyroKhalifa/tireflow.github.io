@@ -34,7 +34,7 @@ namespace PointOfSale.Controllers
 
             if (user_found == null)
             {
-                ViewData["Message"] = "No matches found";
+                ViewData["Message"] = "The Email or Password is Incorrect!";
                 return View();
             }
 
