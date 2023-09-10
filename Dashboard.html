@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sleek Dashboard - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is very powerful bootstrap admin dashboard, which allows you to build products like admin panels, content management systems and CRMs etc.">
+    <title>TIRE FLOW - POS & INVENTORY SYSTEM</title>
+      <!-- GOOGLE FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
+
+      <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+      <link id="sleek" rel="stylesheet" href="sleek.css" />
+    <link  rel="stylesheet" href="select2.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   
+   
+</head>
+<body class="header-fixed sidebar-fixed sidebar-dark header-light" id="body">
+
+  <nav class="sidebar">
+    <a href="Home.html" class="logo">Tire Flow</a>
+
+    <div class="menu-content">
+      <ul class="menu-items">
+        
+        <li class="item">
+          <div class="submenu-item">
+            <span>Admin</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Admin
+            </div>
+            <li class="item">
+              <a href="Dashboard.html">Dashboard</a>
+            </li>
+            <li class="item">
+              <a href="Users.html">Users</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span >Inventory</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Inventory
+            </div>
+            <li class="item">
+              <a href="Categories.html">Categories</a>
+            </li>
+            <li class="item">
+              <a href="Products.html">Products</a>
+            </li>
+               
+          </ul>
+        </li>
+
+
+        <li class="item">
+          <div class="submenu-item">
+            <span> Sales</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Sales
+            </div>
+            <li class="item">
+              <a href="NewSale.html">New Sales</a>
+            </li>
+            <li class="item">
+              <a href="SalesHistory.html">Sale History</a>
+            </li>
+               
+          </ul>
+        </li>
+
+        
+        <li class="item">
+          <div class="submenu-item">
+            <span> Reports</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Reports
+            </div>
+            <li class="item">
+              <a href="SalesReport.html">Sales Report</a>
+            </li>
+            
+               
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+
+   
+  </nav>
+
+  <nav class="navbar">
+    <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    <div class="navbar-right ">
+      <ul class="nav navbar-nav">
+
+        <!-- User Account -->
+        <li class="dropdown user-menu">
+          <button href="#" class="nav-link">
+            <img src="bg.png" class="user-image" alt="User Image" />
+            <span class="d-none d-lg-inline-block">Pyro</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main class="main">
+    <div class="content-wrapper">
+      <div class="content">
+               <!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+<h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+</div>
+
+<!-- Content Row -->
+<div class="row">
+
+<!-- Total Sale -->
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-left-primary shadow h-100 py-2">
+  <div class="card-body">
+      <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                 Total sales</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalSale">30</div>
+          </div>
+          <div class="col-auto">
+              <i class="fas fa-shopping-basket fa-2x text-gray-300"></i>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Total Revenues -->
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-left-success shadow h-100 py-2">
+  <div class="card-body">
+      <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                  Total revenues</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalIncome">$215,000</div>
+          </div>
+          <div class="col-auto">
+              <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Total Product -->
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-left-info shadow h-100 py-2">
+  <div class="card-body">
+      <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                  Total Products</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalProducts">50</div>
+          </div>
+          <div class="col-auto">
+              <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Total Categories -->
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-left-warning shadow h-100 py-2">
+  <div class="card-body">
+      <div class="row no-gutters align-items-center">
+          <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                  Total Categories</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalCategories">18</div>
+          </div>
+          <div class="col-auto">
+              <i class="fas fa-tags fa-2x text-gray-300"></i>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Content Row -->
+
+<div class="row">
+
+<!-- Area Chart  -->
+<div class="col-xl-8 col-lg-7">
+<div class="card shadow mb-4">
+  <!-- Card Header - Dropdown -->
+  <div class="card-header py-3">
+      <h6 >Last week sales</h6>
+  </div>
+  <!-- Card Body -->
+  <div class="card-body">
+      <div class="chart-area" style="height: 350px !important;">
+          <canvas id="charSales"></canvas>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Pie Chart - Product-->
+<div class="col-xl-4 col-lg-5">
+<div class="card shadow mb-4">
+  <!-- Card Header - Dropdown -->
+  <div class="card-header py-3">
+      <h6>Top selling products</h6>
+  </div>
+  <!-- Card Body -->
+  <div class="card-body">
+      <div class="chart-pie" style="height: 350px !important ;">
+          <canvas id="charProducts"></canvas>
+      </div>
+  </div>
+</div>
+</div>
+</div>    
+      </div> <!-- End Content -->
+  </div> <!-- End Content Wrapper -->
+
+    
+  </main>
+
+  
+
+  <script src="sleek.js"></script>
+  <script src="script.js"></script>
+
+  
+
+  
+</body>
+</html>

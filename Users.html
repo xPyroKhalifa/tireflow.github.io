@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sleek Dashboard - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is very powerful bootstrap admin dashboard, which allows you to build products like admin panels, content management systems and CRMs etc.">
+    <title>TIRE FLOW - POS & INVENTORY SYSTEM</title>
+      <!-- GOOGLE FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
+
+      <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+      <link id="sleek-css"rel="stylesheet" href="sleek.css" />
+    
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   
+   
+</head>
+<body class="header-fixed sidebar-fixed sidebar-dark header-light" id="body">
+
+  <nav class="sidebar">
+    <a href="Home.html" class="logo">Tire Flow</a>
+
+    <div class="menu-content">
+      <ul class="menu-items">
+        
+        <li class="item">
+          <div class="submenu-item">
+            <span>Admin</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Admin
+            </div>
+            <li class="item">
+              <a href="Dashboard.html">Dashboard</a>
+            </li>
+            <li class="item">
+              <a href="Users.html">Users</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span >Inventory</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Inventory
+            </div>
+            <li class="item">
+              <a href="Categories.html">Categories</a>
+            </li>
+            <li class="item">
+              <a href="Products.html">Products</a>
+            </li>
+               
+          </ul>
+        </li>
+
+
+        <li class="item">
+          <div class="submenu-item">
+            <span> Sales</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Sales
+            </div>
+            <li class="item">
+              <a href="NewSale.html">New Sales</a>
+            </li>
+            <li class="item">
+              <a href="SalesHistory.html">Sale History</a>
+            </li>
+               
+          </ul>
+        </li>
+
+        
+        <li class="item">
+          <div class="submenu-item">
+            <span> Reports</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Reports
+            </div>
+            <li class="item">
+              <a href="SalesReport.html">Sales Report</a>
+            </li>
+            
+               
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+
+   
+  </nav>
+
+  <nav class="navbar">
+    <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    <div class="navbar-right ">
+      <ul class="nav navbar-nav">
+
+        <!-- User Account -->
+        <li class="dropdown user-menu">
+          <button href="#" class="nav-link">
+            <img src="bg.png" class="user-image" alt="User Image" />
+            <span class="d-none d-lg-inline-block">Pyro</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main class="main">
+    <div class="content-wrapper">
+      <div class="content">
+        
+          <div class="row">
+              <div class="col-sm-12">
+          
+                  <div class="card card-default">
+                      <div class="card-header card-header-border-bottom">
+                          <div class="row justify-content-between w-100">
+                          <div class="col-sm-4">
+                              <h4>Users</h4>
+                          </div>
+                          <div class="col-sm-4 text-right">
+                            <button class="btn btn-success" id="btnNewUser">New User</button>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <table id="tbData" class="table" style="width:100%">
+                                      <thead>
+                                          <tr>
+                                              <th></th>
+                                              <th>Photo</th>
+                                              <th>Name</th>
+                                              <th>Email</th>
+                                              <th>Phone</th>
+                                              <th>Role</th>
+                                              <th>State</th>
+                                              <th></th>
+                                          </tr>
+                                      </thead>
+                                      <tbody></tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Grid Modal -->
+          <div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-labelledby="exampleModalGrid" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalGridTitle">User details</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <input type="hidden" value="0" id="txtId">
+                              <div class="row">
+                                  <div class="col-sm-8">
+                                      <div class="form-row">
+                                              <div class="form-group col-sm-6">
+                                                  <label for="txtName">Name</label>
+                                                  <input type="text" class="form-control form-control-sm input-validate" id="txtName" name="Name">
+                                              </div>
+                                              <div class="form-group col-sm-6">
+                                                  <label for="txtEmail">Email</label>
+                                                  <input type="email" class="form-control form-control-sm input-validate" id="txtEmail" name="Email">
+                                              </div>
+                                      </div>
+                                      <div class="form-row">
+                                              <div class="form-group col-sm-6">
+                                                  <label for="txtPhone">Phone</label>
+                                                  <input type="text" class="form-control form-control-sm input-validate" id="txtPhone" name="Phone">
+                                              </div>
+                                              <div class="form-group col-sm-6">
+                                                  <label for="cboRol">Role</label>
+                                                  <select class="form-control form-control-sm" id="cboRol">
+                                                  
+                                                    </select>
+                                              </div>
+                                      </div>
+                                      <div class="form-row">
+                                          <div class="form-group col-sm-6">
+                                                  <label for="txtPassWord">Password</label>
+                                                  <input type="password" class="form-control form-control-sm input-validate" id="txtPassWord" name="PassWord">
+                                              </div>
+                                              <div class="form-group col-sm-6">
+                                                  <label for="cboState">State</label>
+                                                  <select class="form-control form-control-sm" id="cboState">
+                                                      <option value="1">Active</option>
+                                                      <option value="0">Inactive</option>
+                                                  </select>
+                                              </div>
+                                      </div>
+                                      <div class="form-row">
+                                          <div class="form-group col-sm-6">
+                                                  <label for="txtPhoto">Photo</label>
+                                                  <input class="form-control-file" type="file" id="txtPhoto"/>
+                                              </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <img id="imgUser" style="max-width:200px;" src="" class="rounded mx-auto d-block" alt="Photo user">
+                                  </div>
+                              </div>
+                                      
+                          </form>
+          
+                      </div>
+          
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" id="btnSave">Save Changes</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        
+      </div> <!-- End Content -->
+  </div> <!-- End Content Wrapper -->
+
+
+    
+  </main>
+
+  
+
+  <script src="sleek.js"></script>
+  <script src="script.js"></script>
+
+  
+
+  
+</body>
+</html>
