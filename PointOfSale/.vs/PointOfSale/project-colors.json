@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "28b659db-717a-407a-973e-fd3bdcd13878": {
+      "ProjectGuid": "28b659db-717a-407a-973e-fd3bdcd13878",
+      "DisplayName": "PointOfSale",
+      "ColorIndex": 0
+    },
+    "f230dd70-670f-464e-b464-cf1227fc4be6": {
+      "ProjectGuid": "f230dd70-670f-464e-b464-cf1227fc4be6",
+      "DisplayName": "PointOfSale.Model",
+      "ColorIndex": 1
+    },
+    "3b5bc470-051c-4a9e-bbc8-32015b6bf4fd": {
+      "ProjectGuid": "3b5bc470-051c-4a9e-bbc8-32015b6bf4fd",
+      "DisplayName": "PointOfSale.Data",
+      "ColorIndex": 2
+    },
+    "2f1c2904-ae81-4447-963e-b9ba9dd59226": {
+      "ProjectGuid": "2f1c2904-ae81-4447-963e-b9ba9dd59226",
+      "DisplayName": "PointOfSale.Business",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

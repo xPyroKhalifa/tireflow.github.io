@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sleek Dashboard - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is very powerful bootstrap admin dashboard, which allows you to build products like admin panels, content management systems and CRMs etc.">
+    <link rel="canonical" href="https://demo.dynamsoft.com/samples/dbr/js/4.use-case/1.fill-a-form-with-barcode-reading.html">
+    <title>TIRE FLOW - POS & INVENTORY SYSTEM</title>
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
+
+    <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+  
+
+    <link id="sleek-css" rel="stylesheet" href="~/css/sleek.css" />
+    <link href="~/plugins/toastr/toastr.css" rel="stylesheet">
+    <link href="~/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
+    <link href="~/img/favicon.png" rel="shortcut icon" />
+    <style>
+        .sa-icon{
+            margin-bottom: 35px !important;
+        }
+
+        div.sweet-alert > p.lead {
+            margin-bottom: 10px !important;
+        }
+
+
+        /* Replace this with your desired styling for the bell icon */
+        .bell-icon {
+            font-size: 24px;
+            cursor: pointer;
+            position: relative;
+        }
+        /* Replace this with your desired styling for the dropdown message */
+        .dropdown-message {
+            display: none;
+            position: absolute;
+            bottom: -200px; /* Adjust the value as per your requirement */
+            left: -460px; /* Adjust the value as per your requirement */
+            width: 500px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        /* Style for the close button */
+        .close-button {
+            cursor: pointer;
+            float: right;
+            font-size: 14px;
+            color: #888;
+           
+        }
+        /* Remove margin and padding from paragraphs inside the dropdown */
+        .dropdown-message p {
+            margin: 0;
+            padding: 0;
+        }
+        /* Replace this with your desired styling for the notification counter */
+        .notification-counter {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 50%;
+            font-size: 9px;
+        }
+    
+    </style>
+    @await RenderSectionAsync("StylesPOS", required: false)
+  </head>
+<body class="header-fixed sidebar-fixed sidebar-dark header-light" id="body">
+
+
+    <!-- ====================================
+    ——— WRAPPER
+    ===================================== -->
+    <div class="wrapper">
+
+
+        <!-- ====================================
+          ——— LEFT SIDEBAR WITH OUT FOOTER
+        ===================================== -->
+        <aside class="left-sidebar bg-sidebar">
+          <div id="sidebar" class="sidebar sidebar-with-footer">
+                <!-- Application Brand -->
+                <div class="app-brand">
+                    <a href="@Url.Action("Index", "Home")" title="Tire Flow">
+                        <span class="brand-name text-truncate">Tire Flow</span>
+                    </a>
+                </div>
+
+            <!-- begin sidebar scrollbar -->
+            <div class="" data-simplebar style="height: 100%;">
+              <!-- sidebar menu -->
+              <ul class="nav sidebar-inner" id="sidebar-menu">
+
+            @*<li class="has-sub">
+                  <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
+                    aria-expanded="false" aria-controls="dashboard">
+                    <i class="mdi mdi-view-dashboard-outline"></i>
+                    <span class="nav-text">Admin</span> <b class="caret"></b>
+                  </a>
+                  <ul class="collapse " id="dashboard" data-parent="#sidebar-menu">
+                    <div class="sub-menu">
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("DashBoard","Admin")">
+                          <span class="nav-text">Dashboard</span>
+                        </a>
+                      </li>
+
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("Users","Admin")">
+                          <span class="nav-text">Users</span>
+                        </a>
+                      </li>
+                    </div>
+                  </ul>
+                </li>*@
+
+            @*    <li class="has-sub">
+                  <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#app"
+                    aria-expanded="false" aria-controls="app">
+                    <i class="mdi mdi-package-variant-closed"></i>
+                    <span class="nav-text">Inventory</span> <b class="caret"></b>
+                  </a>
+                  <ul class="collapse " id="app" data-parent="#sidebar-menu">
+                    <div class="sub-menu">
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("Categories","Inventory")">
+                          <span class="nav-text">Categories</span>
+                        </a>
+                      </li>
+
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("Products","Inventory")">
+                          <span class="nav-text">Products</span>
+                        </a>
+                      </li>
+
+                    </div>
+                  </ul>
+                </li>*@
+
+
+           @*     <li class="has-sub">
+                  <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
+                    aria-expanded="false" aria-controls="components">
+                    <i class="mdi mdi-shopping"></i>
+                    <span class="nav-text">Sales</span> <b class="caret"></b>
+                  </a>
+
+                  <ul class="collapse " id="components" data-parent="#sidebar-menu">
+                    <div class="sub-menu">
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("NewSale","Sales")">
+                          <span class="nav-text">New sale</span>
+                        </a>
+                      </li>
+
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("SalesHistory","Sales")">
+                          <span class="nav-text">Sales history</span>
+                        </a>
+                      </li>
+
+                    </div>
+                  </ul>
+                </li>*@
+
+                @*<li class="has-sub ">
+                  <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
+                    aria-expanded="false" aria-controls="icons">
+                    <i class="mdi mdi-chart-bar"></i>
+                    <span class="nav-text">Reports</span> <b class="caret"></b>
+                  </a>
+
+                  <ul class="collapse" id="icons" data-parent="#sidebar-menu">
+                    <div class="sub-menu">
+                      <li class="">
+                        <a class="sidenav-item-link" href="@Url.Action("SalesReport","Reports")">
+                          <span class="nav-text">Sales report</span>
+                        </a>
+                      </li>
+                    </div>
+                  </ul>
+                </li>*@
+
+
+                @await Component.InvokeAsync("Menu")
+              </ul>
+            </div>
+
+       
+          </div>
+        </aside>
+
+
+          <!-- ====================================
+        ——— PAGE WRAPPER
+        ===================================== -->
+        <div class="page-wrapper">
+          
+          <!-- Header -->
+          <header class="main-header " id="header">
+            <nav class="navbar navbar-static-top navbar-expand-lg">
+              <!-- Sidebar toggle button -->
+              <button id="sidebar-toggler" class="sidebar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <!-- search form -->
+              <div class="search-form d-none d-lg-inline-block">
+                
+              </div>
+
+                   
+                    <!-- Bell icon -->
+                    <div class="navbar-right ">
+
+
+                        <!-- Bell icon -->
+                        <div class="bell-icon" onclick="toggleMessage()" id="bellIcon">
+                            &#128276; <!-- Unicode character for the bell icon -->
+                          
+                            <!-- Dropdown message -->
+                            <div class="dropdown-message" id="messageBox">
+                                <!-- The close button is created dynamically when there's a message -->
+                                <span class="close-button" onclick="hideDropdown()">✖</span>
+                                
+
+                                <p>
+
+                                    @using Microsoft.Extensions.Caching.Memory
+                                    @inject IMemoryCache MemoryCache
+
+                                    @{
+                                        var lowQuantityNotification = MemoryCache.Get("LowQuantityNotification") as string;
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(lowQuantityNotification))
+                                    {
+                                        <div class="alert alert-warning">
+                                            @Html.Raw(lowQuantityNotification) <!-- Use Html.Raw to render HTML markup in the notification -->
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                    // Display the general warning message even when there are no low quantity products
+                                        <div class="alert alert-warning">
+                                            Warning: The following products have a quantity below the specified thresholds:
+                                        </div>
+                                    }
+
+                                   
+
+
+                                </p>
+
+                                
+                                
+                               
+
+                            </div>
+                        </div>
+                        
+
+                                  
+                         
+                        
+
+                                    
+                                    
+                            
+                        
+                      
+                    </div>
+                   
+
+
+                       
+                   
+                    
+
+                    
+
+
+              <div class="navbar-right ">
+                <ul class="nav navbar-nav">
+                            
+                  <!-- User Account -->
+                 @* <li class="dropdown user-menu">
+                    <button href="#" class="nav-link">
+                      <img src="assets/img/user/user.png" class="user-image" alt="User Image" />
+                      <span class="d-none d-lg-inline-block">Abdus Salam</span>
+                    </button>
+                  </li>
+
+                           
+                  
+                  
+                  
+                  *@
+                  @await Component.InvokeAsync("MenuUser")
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+          
+          <!-- ====================================
+          ——— CONTENT WRAPPER
+          ===================================== -->
+          <div class="content-wrapper">
+            <div class="content">
+                @RenderBody()
+
+                    
+                   
+            </div> <!-- End Content -->
+        </div> <!-- End Content Wrapper -->
+    
+    
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+      <div class="copyright bg-white">
+        <p>
+          Copyright &copy; <span id="copy-year"></span> TireFlow<a class="text-primary" href="" target="_blank"></a>.
+        </p>
+      </div>
+      <script>
+        var d = new Date();
+        var year = d.getFullYear();
+        document.getElementById("copy-year").innerHTML = year;
+
+
+                    var dropdownOpened = false;
+
+                    // Function to check if there's a message and update the notification counter
+                    function checkMessage() {
+                        // Replace this with the logic to check if there are any messages available
+                        var messagesAvailable = true; // Set this to true if there are messages, false otherwise
+                        var notificationCounter = document.getElementById("notificationCounter");
+                        var messageBox = document.getElementById("messageBox");
+
+                        if (messagesAvailable) {
+                            // If there are messages, show the notification counter
+                            notificationCounter.style.display = "block";
+
+                            // Update the notification counter to "1"
+                            notificationCounter.textContent = "1";
+
+                            
+                        } else {
+                            // If there are no messages, hide the notification counter
+                            notificationCounter.style.display = "none";
+
+                            
+                        }
+                    }
+
+                    // Function to hide the message dropdown
+                    function hideDropdown() {
+                        var messageBox = document.getElementById("messageBox");
+                        messageBox.style.display = "none";
+                        dropdownOpened = false; // Reset the dropdownOpened flag
+                    }
+
+                    // Function to toggle the message dropdown
+                    function toggleMessage() {
+                        var messageBox = document.getElementById("messageBox");
+
+                        // Toggle the display of the dropdown
+                        if (messageBox.style.display === "none") {
+                            messageBox.style.display = "block";
+                            dropdownOpened = true;
+                        } else {
+                            messageBox.style.display = "none";
+                            dropdownOpened = false;
+                        }
+                    }
+
+                    // Call checkMessage() to check for updates whenever needed
+                    // For example, you can call it in response to user interactions or events
+                    checkMessage();
+                    
+                </script>
+    </footer>
+
+    </div> <!-- End Page Wrapper -->
+  </div> <!-- End Wrapper -->
+
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.8/signalr.min.js"></script>
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/sleek.js"></script>
+    <script src="~/plugins/sweetalert/sweetalert.js"></script>
+
+    <script src="~/plugins/signalr.min.js"></script>
+
+	<script src="~/plugins/toastr/toastr.min.js"></script>
+
+	<script src="~/plugins/loadingoverlay/loadingoverlay.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+@*@RenderBody()
+*@

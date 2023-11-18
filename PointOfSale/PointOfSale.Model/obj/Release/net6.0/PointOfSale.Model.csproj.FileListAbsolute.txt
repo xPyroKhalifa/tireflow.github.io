@@ -1,0 +1,14 @@
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\bin\Release\net6.0\PointOfSale.Model.deps.json
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\bin\Release\net6.0\PointOfSale.Model.runtimeconfig.json
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\bin\Release\net6.0\PointOfSale.Model.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\bin\Release\net6.0\PointOfSale.Model.pdb
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.csproj.AssemblyReference.cache
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.AssemblyInfoInputs.cache
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.AssemblyInfo.cs
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.csproj.CoreCompileInputs.cache
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\refint\PointOfSale.Model.dll
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.pdb
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\PointOfSale.Model.genruntimeconfig.cache
+D:\SchoolWorks\CAPSTONE PROJECT\WEBSITE\PointOfSale\PointOfSale.Model\obj\Release\net6.0\ref\PointOfSale.Model.dll

@@ -1,0 +1,43 @@
+﻿@using PointOfSale.Models;
+@model List<VMMenu>;
+@{
+    Layout = null;
+}
+
+@{
+    string menucollapse = "menucollapse";
+    int correlative = 1;
+}
+
+ @foreach (var menu in Model){
+
+    <li class="has-sub">
+      <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="@($"#{menucollapse}{correlative}")"
+        aria-expanded="false" aria-controls="dashboard">
+        <i class="@menu.Icon"></i>
+        <span class="nav-text">@menu.Description</span> <b class="caret"></b>
+      </a>
+      <ul class="collapse " id="@($"{menucollapse}{correlative}")" data-parent="#sidebar-menu">
+        <div class="sub-menu">
+
+                @foreach(var submenu in menu.SubMenus)
+                {
+                      <li class="">
+                        <a class="sidenav-item-link" href="@($"/{submenu.Controller}/{submenu.PageAction}")">
+                          <span class="nav-text">@submenu.Description</span>
+                        </a>
+                      </li>
+                }
+
+        </div>
+      </ul>
+    </li>
+
+     correlative = correlative + 1;
+
+}
+
+
+
+
+

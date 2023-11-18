@@ -1,0 +1,152 @@
+﻿
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section StylesPOS{
+
+	<link href="~/plugins/data-tables/datatables.bootstrap4.min.css" rel="stylesheet">
+	<link href="~/plugins/data-tables/buttons.bootstrap4.min.css" rel="stylesheet">
+	<link href="~/plugins/data-tables/responsive.datatables.min.css" rel="stylesheet">
+
+	
+}
+
+<div class="row">
+    <div class="col-sm-12">
+
+        <div class="card card-default">
+			<div class="card-header card-header-border-bottom">
+				<div class="row justify-content-between w-100">
+				<div class="col-sm-4">
+					<h4>Users</h4>
+				</div>
+				<div class="col-sm-4 text-right">
+				  <button class="btn btn-success" id="btnNewUser">New User</button>
+				</div>
+			  </div>
+			</div>
+
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-12">
+						<table id="tbData" class="table" style="width:100%">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Photo</th>
+									<th>Name</th>
+									<th>Email</th>
+									<th>Phone Number</th>
+									<th>Role</th>
+									<th>State</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<!-- Grid Modal -->
+<div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-labelledby="exampleModalGrid" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalGridTitle">User details</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<input type="hidden" value="0" id="txtId">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="form-row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="txtName">Name</label>
+                                        <input type="text" class="form-control form-control-sm input-validate" id="txtName" name="Name">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="txtEmail">Email</label>
+									<input type="email" class="form-control form-control-sm input-validate" id="txtEmail" name="Email" required="" autocomplete="off">
+                                    </div>
+                            </div>
+                            <div class="form-row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="txtPhone">Phone Number</label>
+									<input type="text" class="form-control form-control-sm input-validate" oninput="validateInput(this)" id="txtPhone" name="Phone Number">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="cboRol">Role</label>
+                                        <select class="form-control form-control-sm" id="cboRol">
+										
+                                          </select>
+                                    </div>
+                            </div>
+                            <div class="form-row">
+								<div class="form-group col-sm-6">
+                                        <label for="txtPassWord">Password</label>
+                                        <input type="password" class="form-control form-control-sm input-validate" id="txtPassWord" name="PassWord">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="cboState">State</label>
+                                        <select class="form-control form-control-sm" id="cboState">
+                                            <option value="1">Active</option>
+											<option value="0">Inactive</option>
+                                        </select>
+                                    </div>
+                            </div>
+							<div class="form-row">
+								<div class="form-group col-sm-6">
+                                        <label for="txtPhoto">Photo</label>
+                                        <input class="form-control-file" type="file" id="txtPhoto"/>
+                                    </div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<img id="imgUser" style="max-width:200px;" src="" class="rounded mx-auto d-block" alt="Photo user">
+						</div>
+					</div>
+							
+				</form>
+
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary" id="btnSave">Save Changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	function validateInput(input) {
+		// Remove non-numeric characters from the input value
+		input.value = input.value.replace(/\D/g, '');
+	}
+
+	
+
+</script>
+
+@section Scripts{
+	<script src="~/plugins/data-tables/jquery.datatables.min.js"></script>
+	<script src="~/plugins/data-tables/datatables.bootstrap4.min.js"></script>
+	<script src="~/plugins/data-tables/datatables.responsive.min.js"></script>
+
+
+	<script src="~/plugins/data-tables/dataTables.buttons.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.bootstrap4.min.js"></script>
+	<script src="~/plugins/data-tables/jszip.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.html5.min.js"></script>
+	<script src="~/plugins/data-tables/buttons.print.min.js"></script>
+
+	<script src="~/js/views/adminUsers.js" ></script>
+}

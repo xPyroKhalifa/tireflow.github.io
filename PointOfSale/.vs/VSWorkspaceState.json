@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PointOfSale",
+    "\\PointOfSale\\Views",
+    "\\PointOfSale\\Views\\Sales",
+    "\\PointOfSale\\Views\\Shared",
+    "\\PointOfSale\\Views\\Shared\\Components",
+    "\\PointOfSale\\Views\\Shared\\Components\\Menu",
+    "\\PointOfSale\\wwwroot",
+    "\\PointOfSale\\wwwroot\\css",
+    "\\PointOfSale\\wwwroot\\plugins",
+    "\\PointOfSale\\wwwroot\\plugins\\charts"
+  ],
+  "SelectedNode": "\\PointOfSale\\Views\\Sales\\NewSale.cshtml",
+  "PreviewInSolutionExplorer": false
+}
