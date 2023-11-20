@@ -114,6 +114,7 @@ $("#btnSave").on("click", function () {
         $("#txtEmail").focus();
         return;
     }
+
     const inputs = $("input.input-validate").serializeArray();
     const inputs_without_value = inputs.filter((item) => item.value.trim() == "");
 
@@ -124,7 +125,6 @@ $("#btnSave").on("click", function () {
         return;
     }
 
-    
     const model = structuredClone(BASIC_MODEL);
     model["idUsers"] = parseInt($("#txtId").val());
     model["name"] = $("#txtName").val();
@@ -135,6 +135,7 @@ $("#btnSave").on("click", function () {
     model["isActive"] = $("#cboState").val();
     const inputPhoto = document.getElementById('txtPhoto');
 
+    // Check if a photo is provided
     if (inputPhoto.files.length > 0) {
         const file = inputPhoto.files[0];
 
@@ -188,7 +189,7 @@ $("#btnSave").on("click", function () {
             toastr.warning("Please select a valid image file.", "");
         }
     } else {
-        toastr.warning("Please select an image file.", "");
+        saveUser(model);
     }
 });
 
@@ -204,6 +205,43 @@ function isImageFile(file) {
     }
 
     return false;
+}
+
+function saveUser(model) {
+    // Save the user data without a photo
+    const formData = new FormData();
+    formData.append('model', JSON.stringify(model));
+
+    $("#modalData").find("div.modal-content").LoadingOverlay("show");
+
+    const url = model.idUsers === 0 ? "/Admin/CreateUser" : "/Admin/UpdateUser";
+
+    fetch(url, {
+        method: model.idUsers === 0 ? "POST" : "PUT",
+        body: formData,
+    })
+        .then(response => {
+            $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+            return response.ok ? response.json() : Promise.reject(response);
+        })
+        .then(responseJson => {
+            if (responseJson.state) {
+                const successMessage = model.idUsers === 0 ? "The user was created" : "The user was modified";
+                if (model.idUsers === 0) {
+                    tableData.row.add(responseJson.object).draw(false);
+                } else {
+                    tableData.row(rowSelected).data(responseJson.object).draw(false);
+                    rowSelected = null;
+                }
+                $("#modalData").modal("hide");
+                swal("Successful!", successMessage, "success");
+            } else {
+                swal("We're sorry", responseJson.message, "error");
+            }
+        })
+        .catch((error) => {
+            $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+        });
 }
 
 

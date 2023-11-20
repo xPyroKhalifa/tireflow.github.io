@@ -4,8 +4,14 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\Administrator\Desktop\Published</_PublishTargetUrl>
-    <History>True|2023-09-12T06:43:17.7425993Z;</History>
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\Publish</_PublishTargetUrl>
+    <History>True|2023-11-19T14:54:34.1787021Z;</History>
     <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SQL">
+      <Value>Data Source=SQL5110.site4now.net,1433%3bInitial Catalog=db_aa1a62_tireflowdb%3bUser Id=db_aa1a62_tireflowdb_admin%3bPassword=PyroKhalifa19%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

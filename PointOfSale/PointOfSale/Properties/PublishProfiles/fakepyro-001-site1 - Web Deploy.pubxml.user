@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk36Mkwv5akKXNGTw0Bui9QAAAAACAAAAAAAQZgAAAAEAACAAAAC1Wo5llP7ZQ+wfwqX/coq+ljeTxQUFvcS050G31+NILQAAAAAOgAAAAAIAACAAAAA8btILU1LFHoSOc/Z+l9dgVCEvOKVgWHnz+tgvtFpXHiAAAAB0kU+eNI+uCk79E6mBpmjIpwFQyzj74a2RtGwkNQCrgkAAAAArwKL7FsARmx/0Fw1JGeHUwOwn93KxiTvRjO2FpgwFwr0NjVFxQV2m8Vj5+M8DAp9vEkKXVWZnb04Et2bQOiwb</EncryptedPassword>
+    <History>True|2023-11-18T11:58:49.5597250Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SQL">
+      <Value>Data Source=SQL5110.site4now.net,1433%3bInitial Catalog=db_aa1a62_tireflowdb%3bUser Id=db_aa1a62_tireflowdb_admin%3bPassword=PyroKhalifa19%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

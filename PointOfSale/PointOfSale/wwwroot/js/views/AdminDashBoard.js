@@ -12,10 +12,10 @@
 
                 let d = responseJson.object;
 
-                $("#totalSale").text(d.totalSales);
-                $("#totalIncome").text(d.totalIncome)
-                $("#totalProducts").text(d.totalProducts)
-                $("#totalCategories").text(d.totalCategories)
+                $("#totalSale").text(d.totalSales.toLocaleString());
+                $("#totalIncome").text(d.totalIncome.toLocaleString())
+                $("#totalProducts").text(d.totalProducts.toLocaleString())
+                $("#totalCategories").text(d.totalCategories.toLocaleString())
 
                 let barchart_labels;
                 let barchar_data;

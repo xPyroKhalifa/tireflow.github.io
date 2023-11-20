@@ -48,7 +48,7 @@
                     <div class="card-body">
                         <div class="form-row">
                             <div class="form-group col-sm-6">
-                                <input type="text" class="form-control form-control-sm" id="txtNameClient" placeholder="Customer Name">
+                                <input type="text" class="form-control form-control-sm" id="txtNameClient" placeholder="Customer Name" oninput="validateName()">
                             </div>
                             <div class="form-group col-sm-6">
                                 <input type="text" class="form-control form-control-sm" id="txtDocumentClient" oninput="validateInput(this)" placeholder="Contact Number">
@@ -212,30 +212,78 @@
 
 <script>
 
+    function validateName() {
+        var nameInput = document.getElementById('txtNameClient').value;
+        var errorElement = document.getElementById('nameError');
+
+        if (nameInput.trim() === '') {
+            errorElement.textContent = 'Name cannot be blank';
+        } else {
+            errorElement.textContent = '';
+        }
+    }
 
     function displayValue() {
-        var Total = document.getElementById('txtTotal').value;
-        var Cash = document.getElementById('txtCash').value;
+        // Get the txtTotal and txtCash elements
+        var Total = parseFloat(document.getElementById('txtTotal').value);
+        var txtCash = document.getElementById('txtCash');
+
+        // Attach input event listener to txtCash
+        txtCash.addEventListener('input', function () {
+            // Remove non-numeric characters
+            this.value = this.value.replace(/[^0-9.]/g, '');
+
+            // Ensure the first character is not a dot (.)
+            if (this.value.startsWith('.')) {
+                this.value = this.value.slice(1);
+            }
+
+            // Ensure there is only one dot (.) in the input
+            var dotIndex = this.value.indexOf('.');
+            if (dotIndex !== -1) {
+                this.value = this.value.slice(0, dotIndex + 1) + this.value.slice(dotIndex + 1).replace(/\./g, '');
+            }
+        });
+
+        // Get the numeric value of txtCash
+        var Cash = parseFloat(txtCash.value);
+
         var Result = 0.00;
 
-      
-        
-        if(Cash == 0){
-            document.getElementById('txtChange').value = Result;
-        }else{
-            Result = Cash - Total;
-
-            document.getElementById('txtChange').value = Result;
+        if (isNaN(Cash) || Cash < 0) {
+            // Handle invalid input, such as non-numeric or negative values
+            document.getElementById('txtChange').value = 'Invalid input';
+            return;
         }
 
+        Result = Cash - Total;
+
+        // Update the value of txtChange
+        document.getElementById('txtChange').value = Result.toFixed(2);
+    }
 
         
-    }
+    
 
     
         function validateInput(input) {
             // Remove non-numeric characters from the input value
             input.value = input.value.replace(/\D/g, '');
+
+        // Get the txtDocumentClient element
+        var txtDocumentClient = document.getElementById('txtDocumentClient');
+
+        // Attach input event listener to txtDocumentClient
+        txtDocumentClient.addEventListener('input', function () {
+            var maxLength = 11;
+            var inputValue = this.value;
+            var numericInput = inputValue.replace(/[^0-9]/g, '');
+            var limitedInput = numericInput.slice(0, maxLength);
+
+            // Update the value of txtDocumentClient with the limited input
+            this.value = limitedInput;
+        });
+
         }
 
 </script>
@@ -252,6 +300,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 @section Scripts{

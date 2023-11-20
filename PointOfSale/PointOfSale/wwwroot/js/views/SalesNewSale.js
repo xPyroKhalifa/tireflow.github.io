@@ -136,7 +136,7 @@ $('#cboSearchProduct').on('select2:select', function (e) {
         return false
     }
 
-
+    
     swal({
         title: data.brand,
         text: data.text,
@@ -144,11 +144,32 @@ $('#cboSearchProduct').on('select2:select', function (e) {
         showCancelButton: true,
         closeOnConfirm: false,
         inputPlaceholder: "Enter quantity",
-        inputValue: '1' // Set the default quantity to 1
-       
-    },function (value) {
+        inputValue: '1', // Set the default quantity to 1
+        inputValidator: function (value) {
+            // Check if the entered value is a valid number
+            if (!/^\d+$/.test(value)) {
+                return 'You must enter a numeric value';
+            }
 
-        if (value === false) return false;
+            // Check if the value is a whole number
+            if (parseInt(value) != parseFloat(value)) {
+                return 'Decimal values are not allowed';
+            }
+
+            return null; // Input is valid
+        }
+
+       
+    }, function (value) {
+        //if (value === false) return false;
+
+        
+        if (value === false || value === null) {
+            // If the user clicks "Cancel" or closes the input without entering a value
+            $("#cboSearchProduct").val("").trigger('change');
+            return false;
+        }
+
 
         let quantity = parseInt(value);
         if (isNaN(quantity) || quantity <= 0) {
@@ -183,11 +204,13 @@ $('#cboSearchProduct').on('select2:select', function (e) {
         displayValue();
         $("#cboSearchProduct").val("").trigger('change');
         swal.close();
+        
 
     });
+    
 
+   
 });
-
 function showProducts_Prices() {
     let TaxValue = 12;
 
@@ -241,24 +264,7 @@ function showProducts_Prices() {
 
 }
 
-function displayValue() {
-    var Total = document.getElementById('txtTotal').value;
-    var Cash = document.getElementById('txtCash').value;
-    var Result = 0.00;
 
-
-
-    if (Cash == 0) {
-        document.getElementById('txtChange').value = Result;
-    } else {
-        Result = Cash - Total;
-
-        document.getElementById('txtChange').value = Result;
-    }
-
-
-
-}
 
 $(document).on("click", "button.btn-delete", function () {
     const _idproduct = $(this).data("idProduct")
@@ -268,6 +274,80 @@ $(document).on("click", "button.btn-delete", function () {
     showProducts_Prices()
 })
 
+// Add an event listener to txtCash for input events
+$("#txtCash").on('input', function (e) {
+    const inputText = e.target.value;
+
+    // Remove non-numeric characters from the input
+    const numericInput = inputText.replace(/[^0-9.]/g, '');
+
+    // Update the value of txtCash with the cleaned numeric input
+    $(this).val(numericInput);
+});
+// Allow only numeric input for txtCash
+$("#txtCash").on('input', function () {
+    var numericInput = $(this).val().replace(/[^0-9.]/g, '');
+    $(this).val(numericInput);
+});
+
+// Allow only numeric input for txtCash
+$("#txtCash").on('input', function () {
+    var inputText = $(this).val();
+
+    // Remove non-numeric characters
+    var numericInput = inputText.replace(/[^0-9.]/g, '');
+
+    // Ensure the first character is not a dot (.)
+    if (numericInput.startsWith('.')) {
+        numericInput = numericInput.slice(1);
+    }
+
+    // Ensure there is only one dot (.) in the input
+    var dotIndex = numericInput.indexOf('.');
+    if (dotIndex !== -1) {
+        numericInput = numericInput.slice(0, dotIndex + 1) + numericInput.slice(dotIndex + 1).replace(/\./g, '');
+    }
+
+    $(this).val(numericInput);
+});
+
+
+// Allow only numeric input for txtDocumentClient and limit to 11 digits
+$("#txtDocumentClient").on('input', function () {
+    var numericInput = $(this).val().replace(/[^0-9]/g, '');
+    var limitedInput = numericInput.slice(0, 11);
+    $(this).val(limitedInput);
+});
+
+
+$("#txtCash").on('input', function () {
+    var Total = parseFloat($('#txtTotal').val());
+    var Cash = parseFloat($(this).val());
+    var Result = 0.00;
+
+    if (isNaN(Cash) || Cash < 0) {
+        // Handle invalid input, such as non-numeric or negative values
+        $('#txtChange').val('Invalid input');
+        return;
+    }
+
+    Result = Cash - Total;
+    $('#txtChange').val(Result.toFixed(2)); // Display result with two decimal places
+});
+
+$("#txtDocumentClient").on('input', function () {
+    var maxLength = 11;
+    var inputValue = $(this).val();
+
+    // Remove non-numeric characters
+    var numericInput = inputValue.replace(/[^0-9]/g, '');
+
+    // Limit the length to 11 digits
+    var limitedInput = numericInput.slice(0, maxLength);
+
+    // Update the value of txtDocumentClient with the limited input
+    $(this).val(limitedInput);
+});
 
 
 $("#btnFinalizeSale").click(function () {
@@ -279,8 +359,9 @@ $("#btnFinalizeSale").click(function () {
     }
     const txtCash = $("#txtCash").val();  // Get the value of txtCash input field
 
-    if (txtCash === "" || parseFloat(txtCash) === 0) {
-        toastr.warning("", "Please enter a valid cash amount");
+    // Check for blank or non-numeric input in txtCash
+    if (txtCash.trim() === "" || isNaN(parseFloat(txtCash))) {
+        toastr.warning("", "Please enter a valid numeric cash amount");
         return;
     }
 
@@ -289,6 +370,13 @@ $("#btnFinalizeSale").click(function () {
 
     if (cash < total) {
         toastr.warning("", "Insufficient cash amount");
+        return;
+    }
+
+    const clientName = $("#txtNameClient").val();
+
+    if (clientName.trim() === "") {
+        toastr.warning("", "Client name cannot be blank");
         return;
     }
 
